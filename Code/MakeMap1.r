@@ -12,7 +12,7 @@ library(akmarineareas2)
 library(marmap)
 #theme_update(panel.grid.major = element_line(color="gray"), panel.grid.minor = element_line(color="gray"))
 
-goa<-read.csv("Data/Processed/GOA_spring_d131to160_30spp_Mar2024.csv")
+goa<-read.csv("Data/Processed/GOA_spring_d117to160_32spp_Jul2024.csv")
 ebs<-read.csv("Data/Processed/EBS_spring_d98to162_11spp_Apr2024.csv")
 goa_ebs<-bind_rows(goa,ebs)
 
